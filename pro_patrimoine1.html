@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sites Patrimoniaux de Banfora</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: linear-gradient(to right, #f7f8f9, #e0f7fa);
+            color: #333;
+        }
+
+        #header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .patrimoine-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .patrimoine-list a {
+            text-decoration: none;
+            color: #333;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease;
+        }
+
+        .patrimoine-list a:hover {
+            transform: scale(1.03);
+        }
+
+        .patrimoine-list img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .patrimoine-list p {
+            margin: 0;
+            padding: 12px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .btn-discover {
+            display: block;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .btn-discover:hover {
+            background-color: #45a049;
+        }
+
+        #footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        .back-home {
+            display: block;
+            text-align: center;
+            margin: 30px auto;
+            padding: 12px 25px;
+            background-color: #333;
+            color: white;
+            width: fit-content;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .back-home:hover {
+            background-color: #555;
+        }
+
+        @media screen and (max-width: 600px) {
+            .patrimoine-list img {
+                height: 160px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div id="header">
+    <h1>Sites Patrimoniaux de Banfora et environs</h1>
+</div>
+
+<div class="container">
+    <div class="patrimoine-list">
+        <!-- Carte patrimoine 1 -->
+        <a href="dome.html">
+            <img src="image/dome1.jpg" alt="Dômes de Fabédougou">
+            <p>Dômes de Fabédougou</p>
+            <span class="btn-discover">Découvrir le site</span>
+        </a>
+
+        <!-- Carte patrimoine 2 -->
+        <a href="cascade.html">
+            <img src="image/cascade.jpg" alt="Cascades de Karfiguéla">
+            <p>Cascades de Karfiguéla</p>
+            <span class="btn-discover">Découvrir le site</span>
+        </a>
+
+        <a href="lac.html">
+            <img src="image/tin1.jpg" alt="Lac de Tengrela">
+            <p>Lac de Tengrela</p>
+            <span class="btn-discover">Découvrir le site</span>
+        </a>
+
+        <a href="sindou.html">
+            <img src="image/sin1.jpeg" alt="Pics de Sindou">
+            <p>Pics de Sindou</p>
+            <span class="btn-discover">Découvrir le site</span>
+        </a>
+
+        <a href="karfiguela.html">
+            <img src="image/karfiguela-falls.jpg" alt="Village de Karfiguéla">
+            <p>Village de Karfiguéla</p>
+            <span class="btn-discover">Découvrir le site</span>
+        </a>
+
+        <a href="centre_ville.html">
+            <img src="image/banf.jpeg" alt="Centre-ville de Banfora">
+            <p>Centre-ville de Banfora</p>
+            <span class="btn-discover">Découvrir le site</span>
+        </a>
+
+        <a href="sucre.html">
+            <img src="image/suc1.jpeg" alt="Plantations de Canne à sucre">
+            <p>Plantations de Canne à sucre</p>
+            <span class="btn-discover">Découvrir le site</span>
+        </a>
+
+        <a href="bala.html">
+            <img src="image/bala1.jpg" alt="Mare aux hippopotames de Bala">
+            <p>Mare aux hippopotames de Bala</p>
+            <span class="btn-discover">Découvrir le site</span>
+        </a>
+
+        <a href="nazinga.html">
+            <img src="image/naz1.jpeg" alt="Ranch de Nazinga">
+            <p>Ranch de Nazinga</p>
+            <span class="btn-discover">Découvrir le site</span>
+        </a>
+
+        <a href="kirikongo.html">
+            <img src="image/kiri1.jpeg" alt="Site de Kirikongo">
+            <p>Site de Kirikongo</p>
+            <span class="btn-discover">Découvrir le site</span>
+        </a>
+    </div>
+</div>
+
+<a class="back-home" href="pro_acceuil.html">← Retour à l'accueil</a>
+
+<footer id="footer">
+    <p>&copy; 2025 Banfora Info. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>

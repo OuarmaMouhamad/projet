@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Galerie de Banfora</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        background-color: #333;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 8px 12px;
+        background-color: #555;
+        border-radius: 5px;
+    }
+
+    nav a:hover {
+        background-color: #777;
+    }
+
+    h1 {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .container img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        transition: transform 0.3s;
+    }
+
+    .container img:hover {
+        transform: scale(1.03);
+    }
+
+    /* bouton retour haut */
+    #topBtn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #333;
+        color: white;
+        padding: 10px 14px;
+        border: none;
+        border-radius: 50%;
+        font-size: 20px;
+        cursor: pointer;
+        display: none;
+    }
+
+    #topBtn:hover {
+        background-color: #555;
+    }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="pro_acceuil.html">Accueil</a>
+    <a href="pro_patrimoine1.html">Patrimoine</a>
+    <a href="pro_reservation.html">Réservation d'hôtel</a>
+    <a href="pro_galerie.html">Galerie</a>
+</nav>
+
+<h1>Galerie</h1>
+
+<div class="container">
+    <!-- tes images, inchangées -->
+    <img src="image/ban1.jpeg" alt="Site 1"> 
+    <img src="image/champ2.jpg" alt="Site 5">
+    <img src="image/dome1.jpg" alt="Site 6">
+    <img src="image/dome2.jpg" alt="Site 7">
+    <img src="image/dome3.jpg" alt="Site 8">
+    <img src="image/falaise.jpeg" alt="Site 9">
+    <img src="image/sita.jpeg" alt="Site 10">
+    <img src="image/senoufo_masque.jpeg" alt="Site 11">
+    <img src="image/place.jpg" alt="Site 12">
+    <img src="image/images.jpeg" alt="Site 13">
+    <img src="image/images.jpeg" alt="Site 14">
+    <img src="image/images (4).jpg" alt="Site 15">
+    <img src="image/images (2).jpeg" alt="Site 16">
+     <img src="image/kiri1.jpeg" alt="Site de Kirikongo">
+    <img src="image/kiri2.jpeg" alt="Site de Kirikongo">
+    <img src="image/kiri3.jpeg" alt="Site de Kirikongo">
+    <img src="image/kiri4.jpeg" alt="Site de Kirikongo">
+    <img src="image/kiri5.jpeg" alt="Site de Kirikongo">
+    <img src="image/kiri6.jpeg" alt="Site de Kirikongo">
+     <img src="image/naz1.jpeg" alt="Ranch de Nazinga">
+    <img src="image/naz2.jpeg" alt="Ranch de Nazinga">
+    <img src="image/naz3.jpeg" alt="Ranch de Nazinga">
+    <img src="image/naz4.jpeg" alt="Ranch de Nazinga">
+    <img src="image/naz5.jpeg" alt="Ranch de Nazinga">
+    <img src="image/naz6.jpeg" alt="Ranch de Nazinga">
+    <img src="image/naz7.jpeg" alt="Ranch de Nazinga">
+    <img src="image/bala1.jpg" alt="Mare aux hippopotames de Bala">
+    <img src="image/bala2.jpeg" alt="Mare aux hippopotames de Bala">
+    <img src="image/bala3.jpeg" alt="Mare aux hippopotames de Bala">
+    <img src="image/bala4.jpeg" alt="Mare aux hippopotames de Bala">
+    <img src="image/bala5.jpeg" alt="Mare aux hippopotames de Bala">
+    <img src="image/bala6.jpeg" alt="Mare aux hippopotames de Bala">
+    <img src="image/bala7.jpeg" alt="Mare aux hippopotames de Bala">
+    <img src="image/bala8.jpeg" alt="Mare aux hippopotames de Bala">
+    <img src="image/bala9.jpeg" alt="Mare aux hippopotames de Bala">
+    <img src="image/bala10.jpeg" alt="Mare aux hippopotames de Bala">
+     <img src="image/suc1.jpeg" alt="Plantation de Canne à sucre">
+    <img src="image/suc2.jpeg" alt="Plantation de Canne à sucre">
+    <img src="image/suc3.jpeg" alt="Plantation de Canne à sucre">
+     <img src="image/ban1.jpeg" alt="Centre-ville de Banfora">
+    <img src="image/banfo.jpg" alt="Centre-ville de Banfora">
+    <img src="image/banf-3.jpg" alt="Centre-ville de Banfora">
+    <img src="image/sin1.jpeg" alt="Pics de Sindou">
+    <img src="image/sin2.jpeg" alt="Pics de Sindou">
+    <img src="image/sin3.jpeg" alt="Pics de Sindou">
+    <img src="image/sin4.jpeg" alt="Pics de Sindou">
+    <img src="image/sin5.jpeg" alt="Pics de Sindou">
+    <img src="image/masque.jpeg" alt="Pics de Sindou">
+    <img src="image/tin1.jpg" alt="Lac de Tengrela">
+    <img src="image/tin2.jpeg" alt="Lac de Tengrela">
+    <img src="image/tin3.jpeg" alt="Lac de Tengrela">
+    <img src="image/tin4.jpeg" alt="Lac de Tengrela">
+    <img src="image/tin5.jpeg" alt="Lac de Tengrela"> 
+    <img src="image/tin6.jpeg" alt="Lac de Tengrela">
+    <img src="image/tin7.jpeg" alt="Lac de Tengrela">
+    <img src="image/tin8.jpeg" alt="Lac de Tengrela">
+    <img src="image/tin9.jpeg" alt="Lac de Tengrela">
+    <img src="image/tin10.jpeg" alt="Lac de Tengrela">
+    <img src="image/tin11.jpeg" alt="Lac de Tengrela">
+    <img src="image/tin12.jpeg" alt="Lac de Tengrela">
+    <img src="image/tin13.jpeg" alt="Lac de Tengrela">
+    <img src="image/tin14.jpeg" alt="Lac de Tengrela">
+</div>
+
+<!-- bouton retour haut -->
+<button id="topBtn" title="Retour en haut">↑</button>
+
+<script>
+// afficher bouton quand on descend
+window.onscroll = function() {
+    const btn = document.getElementById("topBtn");
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        btn.style.display = "block";
+    } else {
+        btn.style.display = "none";
+    }
+};
+
+// remonter en haut
+document.getElementById("topBtn").onclick = function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+</script>
+
+</body>
+</html>
